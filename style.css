@@ -34,10 +34,15 @@ h1{
 nav{
     margin: 0 auto;
     padding: 0;
+    background-color: var(--lightG);
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     align-content: space-between;
-    background-color: var(--lightG);
 }
 
 nav li{
@@ -47,10 +52,15 @@ nav li{
     padding-left: 50px;
     padding-right: 50px;
     display: inline-block;
-    background-color: var(--darkB);
     font-size: 1.2rem;
+    background-color: var(--darkB);
     color: var(--white);
     list-style: none;
+}
+
+.active{
+    background-color: var(--white);
+    color: var(--darkB);
 }
 
 main{
